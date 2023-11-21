@@ -16,6 +16,11 @@ $ composer require achugunov/fibonacci
 
 ```php
 <?php
+
+require __DIR__ . '/vendor/autoload.php';
+
+use Achugunov\Fibonacci\Fibonacci;
+
 $fibonacci = new Fibonacci();
 echo $fibonacci->getNumber(7); //13
 ```
