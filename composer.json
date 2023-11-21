@@ -1,0 +1,12 @@
+{
+    "name": "achugunov/fibonacci",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Achugunov\\Fibonacci\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.6"
+    }
+}
